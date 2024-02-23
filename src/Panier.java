@@ -12,7 +12,7 @@ public class Panier {
     }
 
     // Ajout des produits dans le panier
-    public void ajouterPanier(Produit produit) {
+    public void addPanier(Produit produit) {
         produits.add(produit);
     }
 

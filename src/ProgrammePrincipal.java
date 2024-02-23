@@ -40,9 +40,9 @@ public class ProgrammePrincipal {
 
         // Création du panier + calcule des prix des produits dans le panier
         Panier panier = new Panier();
-        panier.ajouterPanier(produitElectronique);
-        panier.ajouterPanier(produitAlimentaire);
-        panier.ajouterPanier(produitBoisson);
+        panier.addPanier(produitElectronique);
+        panier.addPanier(produitAlimentaire);
+        panier.addPanier(produitBoisson);
 
         panier.prixTotalPanier();
 
